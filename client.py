@@ -10,15 +10,15 @@ def cliente():
 
     while True:
     # --- Se solicita un mensaje al usuario y se lo envía al servidor---
-        mensaje = input("Escribí un mensaje ('salida' para salir): ")
+        mensaje = input("Escribí el mensaje ('éxito' para salir): ")
         client_socket.send(mensaje.encode("utf-8"))
 
     # --- Se espera la respuesta del servidor ---
         respuesta = client_socket.recv(1024).decode("utf-8")
         print(f"Servidor: {respuesta}")
         
-    # --- Si la respuesta es "salida", se cierra la conexión ---
-        if mensaje.lower() == "salida":
+    # --- Si la respuesta es "éxito", se cierra la conexión ---
+        if mensaje.lower() == "éxito":
             print("Cerrando conexión...")
             break
     # --- Cierre de la conexión ---           

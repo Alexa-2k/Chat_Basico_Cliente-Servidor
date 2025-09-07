@@ -79,8 +79,8 @@ def manejar_conexiones(server_socket):
             # --- Enviar respuesta al cliente ---
             client_socket.send(respuesta.encode("utf-8"))
 
-            # --- Si el cliente envía "salida", se cierra esa conexión ---
-            if data.lower() == "salida":
+            # --- Si el cliente envía "éxito", se cierra esa conexión ---
+            if data.lower() == "éxito":
                 print("Cliente finalizó la sesión.")
                 break
 
