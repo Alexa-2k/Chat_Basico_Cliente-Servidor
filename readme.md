@@ -1,4 +1,5 @@
-# Chat Básico Cliente-Servidor con Python y SQLite - RACHICH, Alejandra Lorena.
+# Chat Básico Cliente-Servidor con Python y SQLite - 
+## RACHICH, Alejandra Lorena.
 
 Este proyecto implementa un **chat básico** usando sockets TCP/IP en Python.  
 Los mensajes se guardan en una base de datos **SQLite** y el servidor responde con un **timestamp** indicando cuándo se recibió cada mensaje.
