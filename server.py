@@ -87,6 +87,8 @@ def manejar_conexiones(server_socket):
         client_socket.close()
 
 # --- Inicio ---
+
+if __name__ == "__main__":
     inicializar_db()
     server_socket = inicializar_socket()
     manejar_conexiones(server_socket)

@@ -15,7 +15,7 @@ python server.py
 
 ### 2. Ejecutar el cliente
 ```bash
-python server.py
+python client.py
 ```
 ### 3. Escribir diferentes mensajes de prueba para corroborar la conexión y el funcionamiento.
 

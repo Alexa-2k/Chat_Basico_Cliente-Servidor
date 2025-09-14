@@ -25,4 +25,5 @@ def cliente():
     client_socket.close()
 
 # --- Ejecuta la función principal del cliente para conectarse al servidor y enviar mensajes ---
+if __name__ == "__main__":
     cliente()
